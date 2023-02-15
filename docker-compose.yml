@@ -4,4 +4,4 @@ services:
     image: honeygain/honeygain:latest
     container_name: honeygain
     restart: unless-stopped
-    command: -tou-accept -email email -pass password -device devicename
+    command: -tou-accept -email <email> -pass <password> -device <devicename>
